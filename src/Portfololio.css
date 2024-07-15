@@ -1,0 +1,263 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap'); */
+*{
+  box-sizing: border-box;
+    /* font-family: 'Roboto Condensed', sans-serif */
+}
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+body {
+    background-image: url('./image.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-position: left; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+.box {
+  margin-top: 200px;
+  background-color: rgb(63, 63, 63);
+  height: 700px;
+   width: 800px;
+   margin-left: 150px;
+  margin-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  margin-top: 120px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: white;
+  
+}
+.profile h1{
+  width: 18px;
+  font-weight: 1000px;
+  letter-spacing: 10px;
+  font-size: 53px!important;
+}
+
+.hypen{
+  color: #ff6603;
+  font-size: 55px;
+}
+.hypen_2{
+  color: #ff6603;
+  font-size: 65px;
+}
+.bio {
+  padding: 20px;
+  color: white; 
+  line-height: 2.5rem;
+  font-size: 15px;
+
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo{
+  margin-left: 370px;
+  width: 20%;
+}
+
+.header{
+  height: 700px;
+}
+
+.logo-moto{
+  font-size: 9px;
+  text-align: center;
+  color: white;
+  margin-top: -1px;
+}
+
+.box .logo{
+  margin-left: 250px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: rgb(237, 76, 1);
+  /* border-radius: 20px; */
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  /* font-weight: bold; */
+  text-decoration: none;
+  border: 1px solid #ff6603;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: rgb(63, 63, 63);
+}
+
+.bottom{
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-family: inherit;
+}
+
+.bottom h1{
+  font-size: 42px;
+}
+.barline{
+  width: 10px;
+}
+
+.bar1{
+   width: 700px;
+  height: 10px;
+  background-color: #ff6603; 
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.bar2{
+   width: 600px;
+  height: 10px;
+  background-color: #ff6603; 
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.bar3{
+   width: 700px;
+  height: 10px;
+  background-color: #ff6603; 
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.bar4{
+   width: 650px;
+  height: 10px;
+  background-color: #ff6603; 
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.bar5{
+   width: 600px;
+  height: 10px;
+  background-color: #ff6603; 
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.bar6{
+   width: 650px;
+  height: 10px;
+  background-color: #ff6603; 
+  margin-left: 35px;
+  margin-top: 25px;
+}
+.bar7{
+   width: 700px;
+  height: 10px;
+  background-color: #ff6603; 
+  margin-left: 35px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.bar{
+  display: flex;
+  flex-direction: column;
+  /* margin-left: -550px; */
+}
+.bars{
+  display: flex;
+  flex-direction: row;
+}
+
+.percentage{
+  margin-left: 2px;
+}
+
+.image-container{
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  height: 580px;
+  margin-left: 20px;
+}
+
+.image-container2{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  gap: 20px;
+}
+
+.education_1{
+  text-align: right;
+
+}
+.education_3{
+  text-align: right;
+}
+.education_5{
+  text-align: right;
+}
+.education_2{
+  text-align: left;
+}
+.education_4{
+  text-align: left;
+}
+.dot{
+  margin-left: 465px;
+  background-color: #ff6603;
+  margin-top: 10px;
+  border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.dot_line{
+  background-color: #ff6603;
+  width: 2px;
+  height: 888px;
+  margin-left:9px;
+  transform-origin: center 1px;
+
+
+}
+.logo_2{
+  justify-content: center;
+  width: 150px;
+  margin-top: 20p;
+}
+
+.stop{
+  background-color: #ff6603;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+
+@media screen {
+  
+}
