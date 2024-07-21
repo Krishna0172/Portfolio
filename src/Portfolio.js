@@ -77,10 +77,10 @@ const Portfolio = () => {
         <h1>02 PORTFOLIO</h1>
         <h3>MY LATEST WORKS </h3>
         <div className="image-container">
-          <img src={images1} alt="Image 1" />
+          <img src={images1} alt="logo" />
           <div className="image-container2">
-            <img src={images2} alt="Image 2" />
-            <img src={images3} alt="Image 3" />
+            <img src={images2} alt="Image2" />
+            <img src={images3} alt="Image3" />
           </div>
         </div>
       <div className="educations">
