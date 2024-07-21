@@ -10,26 +10,37 @@
 }
 
 
+@media only screen and (min-width: 600px){
 body {
-    background-image: url('./image.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; 
-    background-position: left; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+}
 
+.background-image {
+  position: absolute;
+  width: 100%;
+  height: 125vh;
+  background-image: url('./image.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  top: 0; 
+  left: 0; 
+}
+}
 
-
-
+.year{
+  color: #ff6603;
+  font-size: 25px;
+}
 .box {
-  margin-top: 200px;
-  background-color: rgb(63, 63, 63);
+  background-color: rgb(46, 44, 44);
   height: 700px;
-   width: 800px;
-   margin-left: 150px;
+   width: 750px;
+   margin-left: 50px;
   margin-top: 50px;
   padding-left: 80px;
   padding-right: 80px;
@@ -39,18 +50,23 @@ body {
   justify-content: center;
 }
 
+
 .profile {
+  margin-left: -82px;
   margin-top: 120px;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1;
   color: white;
-  
+
 }
 .profile h1{
   width: 18px;
   font-weight: 1000px;
   letter-spacing: 10px;
-  font-size: 53px!important;
+  font-size: 50px!important;
+}
+.profile p{
+  margin-top: -20px;
 }
 
 .hypen{
@@ -61,17 +77,19 @@ body {
   color: #ff6603;
   font-size: 65px;
 }
+
 .bio {
+  margin-top: 30px;
   padding: 20px;
   color: white; 
   line-height: 2.5rem;
   font-size: 15px;
-
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .logo{
-  margin-left: 370px;
+  margin-top: 30px;
+  margin-left: 350px;
   width: 20%;
 }
 
@@ -84,10 +102,16 @@ body {
   text-align: center;
   color: white;
   margin-top: -1px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .box .logo{
-  margin-left: 250px;
+  margin-top: -30px;
+  margin-left: 215px;
+  width: 30%;
+}
+.box .logo-moto{
+  margin-left: 30px;
 }
 
 .button {
@@ -95,14 +119,13 @@ body {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
+  margin-top: 35px;
   background-color: rgb(237, 76, 1);
   /* border-radius: 20px; */
   display: block;
   text-align: center;
   line-height: 40px;
   color: white;
-  /* font-weight: bold; */
   text-decoration: none;
   border: 1px solid #ff6603;
 
@@ -118,6 +141,7 @@ body {
   text-align: center;
   justify-content: center;
   font-family: inherit;
+  /* font-family:avenir-lt-w01_35-light1475496,sans-serif; */
 }
 
 .bottom h1{
@@ -126,6 +150,7 @@ body {
 .barline{
   width: 10px;
 }
+
 
 .bar1{
    width: 700px;
@@ -174,7 +199,7 @@ body {
   height: 10px;
   background-color: #ff6603; 
   margin-left: 35px;
-  margin-top: 25px;
+  margin-top: 17px;
   margin-right: 10px;
 }
 .bar{
@@ -182,6 +207,7 @@ body {
   flex-direction: column;
   /* margin-left: -550px; */
 }
+
 .bars{
   display: flex;
   flex-direction: row;
@@ -207,9 +233,10 @@ body {
   gap: 20px;
 }
 
+
+
 .education_1{
   text-align: right;
-
 }
 .education_3{
   text-align: right;
@@ -223,8 +250,10 @@ body {
 .education_4{
   text-align: left;
 }
+
+
 .dot{
-  margin-left: 465px;
+  margin-left: 440px;
   background-color: #ff6603;
   margin-top: 10px;
   border-radius: 50%;
@@ -234,7 +263,7 @@ body {
 .dot_line{
   background-color: #ff6603;
   width: 2px;
-  height: 888px;
+  height: 1012px;
   margin-left:9px;
   transform-origin: center 1px;
 
@@ -258,6 +287,284 @@ body {
 }
 
 
-@media screen {
-  
+
+@media only screen and (min-width: 300px) and (max-width: 520px) {
+  body {
+    background-color: black;
+    overflow-x: hidden;
+  }
+
+  .background-image {
+    position: absolute;
+    height: 60vh;
+    background-image: url('./image.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto; 
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+  }
 }
+
+/* .background-image {
+  position: absolute;
+  width: 100%;
+  height: 125vh;
+  background-image: url('./image.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;
+  top: 0; 
+  left: 0; 
+} */
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 520px) {
+  .content{
+    margin-left: -225px;
+
+  }
+  .header {
+    text-align: center; 
+    height: 900px;
+  }
+  .header .logo{
+    margin-top: 7px;
+    width: 12%;
+    margin-left: 249px;
+  }
+  .header .logo-moto{
+    font-size:10px;
+    color: white;
+    margin-left: 265px;
+  }
+  .profile{
+    margin-top: 50px !important;    
+  }
+  .hypen{
+    color: #ff6603;
+    font-size: 40px;
+  }
+  .hypen_2{
+    color: #ff6603;
+    font-size: 60px;
+  }
+  .profile h1 {
+    margin-bottom: 30px;
+    font-size: 23px !important;
+    color: white;
+    line-height: 100%;
+    letter-spacing: 4px;
+    margin-left: 336px;
+  }
+  .profile p{
+    font-size: 15px;
+    margin-right: 0px;
+  }
+  .center{
+    text-align: center;
+  }
+  .box {
+    margin-bottom: 55px; 
+    background-color: rgb(63, 63, 63);
+    margin-left: 276px;
+    margin-top: -558px;
+    padding: 50px;
+    justify-content: center; 
+    height: 430px;
+    width: 450px;
+  }
+  .year{
+    font-size: 21px !important;
+  }
+  .box .logo{
+    width: 100px;
+    text-align: center;
+    margin-left: 17px;
+    margin-top: -40px;
+  }
+  .box .logo-moto{
+    font-size:10px;
+    color: white;
+    margin-left: 23px;
+  }
+
+  .bio {
+    padding: 0px;
+    color: white; 
+    line-height: 1.6rem;
+    font-size: 11px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  
+  .button 
+  {
+    width: 140px;
+    height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: rgb(237, 76, 1);
+    display: block;
+    text-align: center;
+    line-height: 31px;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    border: 1px solid #ff6603;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: rgb(63, 63, 63);
+  }
+  .bottom{
+    color: white;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* font-family: inherit; */
+  }
+  .bottom h1{
+    font-size: 24px;
+    margin-left: 250px;
+  }
+  .bottom h3{
+    font-size: 15px;
+    margin-left: 250px;
+  }
+  .skills{
+    margin-left: 281px;
+  }
+  .percentage{
+    margin-right: 60px;
+  }
+  
+  .bar1{
+    width: 275px;
+  height: 7px;
+  background-color: #ff6603; 
+  margin-left: 11px;
+  margin-top: 22px;
+  }
+  .bar2{
+    width: 250px;
+  height: 7px;
+  background-color: #ff6603; 
+  margin-left: 11px;
+    margin-top: 30px;
+  }
+  .bar3{
+    width: 275px;
+    height: 7px;
+    background-color: #ff6603; 
+    margin-left: 11px;
+    margin-top: 24px;
+  }
+  .bar4{
+    width: 250px;
+  height: 7px;
+  background-color: #ff6603; 
+  margin-left: 11px;
+    margin-top: 28px;
+  }
+  .bar5{
+    width: 225px;
+  height: 7px;
+  background-color: #ff6603; 
+  margin-left: 11px;
+    margin-top: 29px;
+  }
+  .bar6{
+    width: 250px;
+  height: 7px;
+  background-color: #ff6603; 
+  margin-left: 11px;
+    margin-top: 27px;
+  }
+  .bar7{
+    width: 275px;
+    height: 7px;
+    background-color: #ff6603; 
+    margin-left: 11px;
+    margin-top: 26px;
+  }
+
+  .image-container{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 328px;
+    margin-left: 275px;
+    margin-bottom: 50px;
+  }
+
+  .image-container2{
+    width: 217px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    gap: 20px;
+  }
+
+  .dot{
+    margin-left: 500px;
+    background-color: #ff6603;
+    margin-top: 42px;
+    border-radius: 50%;
+      width: 20px;
+      height: 20px;
+  }
+  .dot_line{
+    background-color: #ff6603;
+    width: 2px;
+    height: 1012px;
+    margin-left:9px;
+    transform-origin: center 1px;
+  }
+  .education1 p{
+    font-size: 13px;
+    margin-right: 45px;
+  }
+  .education2 p{
+    font-size: 13px;
+    margin-left: 255px;
+    
+  }
+  .education3 p{
+    font-size: 13px;
+    margin-right: 15px;
+  }
+  .education4 p{
+    font-size: 13px;
+    margin-left: 255px;
+  }
+  .education5 p{
+    font-size: 13px;
+    margin-right: 23px;
+  }
+
+  .logo_2{
+    justify-content: center;
+    width: 90px;
+    margin-left: 235px;
+    margin-top: 20px;
+  }
+  .contact{
+    text-align: center;
+    margin-left: 225px;
+  }
+
+  .educations{
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family:avenir-lt-w01_35-light1475496,sans-serif;
+
+
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  }
+}
+
